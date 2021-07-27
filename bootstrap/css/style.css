@@ -1,0 +1,72 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.bg-teal,.btn-teal {
+    background-color:#2a6f6f !important;
+
+}
+
+.text-teal{
+    color:#2a6f6f !important
+}
+
+.btn-primary ,.bg-primary{
+    background:linear-gradient(45deg,darkslategrey,cornflowerblue )
+}
+.btn-secondary ,.bg-secondary{
+    background:linear-gradient(45deg,darkslategrey,purple)
+}
+.btn-success ,.bg-success{
+    background:linear-gradient(45deg,darkslategrey,limegreen )
+}
+.btn-warning ,.bg-warning{
+    background:linear-gradient(45deg,darkslategrey,coral )
+}
+.btn-danger ,.bg-danger{
+    background:linear-gradient(45deg,darkslategrey,red )
+}
+.btn-dark,.bg-dark{
+    background:linear-gradient(45deg,darkslategray,black)
+}
+.btn-info,.bg-info{
+    background:linear-gradient(45deg,darkslategray,cornflowerblue)
+}
+.bg-light-blue{
+    background-color:#c0d1eb !important
+}
+.bg-light-green{
+    background-color:#bef1c0 !important;
+}
+.bg-light-orange{
+    background-color:#f8ded4 !important;
+}
+
+.carousel .carousel-indicators li{
+    height: 5px;
+    width: 30px;
+    border-radius: 0%;
+}
+
+.carousel-caption{
+    bottom: 200px;
+}
+
+
+@media(max-width:576px){
+    .carousel-caption p{
+        display: none;
+
+    }
+    .carousel-caption h5{
+        font-size: 25px;
+    }
+    .carousel-caption{
+        bottom: 20px;
+    }
+}
+
+
+
+
